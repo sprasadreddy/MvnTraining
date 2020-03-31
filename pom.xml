@@ -4,6 +4,18 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 
 		http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
+  <groupId>com.temenos.training</groupId>
+  <artifactId>mvntraining</artifactId>
+  <version>1.0</version>
+  
+	<dependencies>
+	<dependency>
+		<groupId>org.apache.commons</groupId>
+		<artifactId>commons-lang3</artifactId>
+		<version>3.9</version>
+	</dependency>
+	</dependencies>
+  
 	<build>
 		<plugins>
 			<plugin>
@@ -17,7 +29,5 @@
 			</plugin>
 		</plugins>
 	</build>
-  <groupId>com.temenos.training</groupId>
-  <artifactId>mvntraining</artifactId>
-  <version>1.0</version>
+  
 </project>
